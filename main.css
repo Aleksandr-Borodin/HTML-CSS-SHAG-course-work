@@ -1,0 +1,1043 @@
+﻿body	{
+	background: #000 url(images/general-fon.jpg) no-repeat center top;
+	width: 997px;
+	margin: 0 auto;
+	}
+
+/* div:first-child - Вспомогательные вехние-левые кнопки */
+/* div:first-child + aside - Верхнее правое вспомогательное меню */
+/* aside + nav - Навагационная шапка с картинкой-логотипом и основным меню */
+/* nav + div - Панель с бегущей строкой и второстепенным меню */
+/* article - Блок с краткими ссылками-статьями */
+/* article + div - Блок с рекламой-ссылкой-картинкой и вспомогательным меню-буквами */
+/* article + div + div - Блок приветствия */
+/* div + nav - Навигационная панель справа */
+/* main - Блок основного содержимого */
+/* main + div - Блок с рекламой справа */
+/* main + div + div - Блок с опросом */
+/* footer - Подвал сайта */
+
+div:first-child a,
+aside + nav a {
+  color: #dadada;
+}
+nav + div aside a:hover,
+div:first-child + aside a {
+  color: #000;
+}
+div:first-child a:active,
+article > div > h4 + a + a + a:hover {
+  color: #fff;
+}
+h2 + h3 + img + map + a,
+article > div > h4 + a,
+article + div + div p,
+main section,
+main + div + div div p:first-child,
+article + div + div h4,
+nav h4,
+main h3,
+main + div h5,
+main + div + div h5,
+div + nav ul li a,
+main div a:first-child,
+main div a:last-child {
+  color: #ccc;
+}
+section h3 a,
+article > div > h4 a,
+div + nav ul li:after,
+main div a,
+div h5 + div p:nth-child(n+2):nth-child(-n+5),
+footer div:nth-of-type(1) p,
+footer a:nth-of-type(1) {
+  color: #e0eb14;
+}
+article section,
+nav + div {
+  background-color: rgba(0, 0, 0, .5);
+}
+article > div img,
+article > div > h4 + a,
+article + div > a,
+main + div a,
+main + div a img,
+footer div img,
+footer div img ~ a {
+  display: block;
+}
+aside + nav a,
+nav + div div  a,
+nav + div aside a,
+div:first-child + aside a,
+section h2,
+section h3,
+h2 + h3 + img  + map + a,
+article > div > h4 + a + a,
+article > div > h4 + a + a + a,
+article > div > h4 + a + a + a  + a,
+article + div aside a,
+main div a,
+main div a:first-child:before,
+main div a:last-child:after {
+  display: inline-block;
+}
+article section,
+article > div,
+article > div img,
+article > div > h4,
+article + div > a,
+article + div + div,
+main,
+div:first-child,
+div:first-child + aside a,
+nav + div aside a,
+nav + div div  a,
+footer a:first-child,
+footer a:last-child,
+footer div:nth-of-type(1),
+footer div:nth-of-type(1) p,
+footer div:nth-of-type(1) p + p,
+footer div img {
+  float: left;
+}
+aside + nav a,
+div:first-child + aside,
+article + div aside,
+div + nav,
+main + div,
+main + div + div,
+footer div:nth-of-type(2) {
+  float: right;
+}
+aside + nav,
+footer {
+  clear: both;
+}
+nav + div div,
+nav + div aside {
+  position: absolute;
+}
+nav + div,
+nav + div p,
+main,
+main div,
+aside + nav img {
+  position: relative;
+}
+nav + div,
+article section,
+article > div > h4 + a,
+article + div > a {
+  overflow: hidden;
+}
+nav + div p,
+article + div aside,
+article + div + div h4,
+nav h4,
+main h3,
+main + div h5,
+main + div + div h5,
+main div {
+  text-align: center;
+}
+main,
+article + div + div {
+  width: calc(100% - 30% - 12px - 48px);
+}
+div + nav,
+main + div,
+main + div + div {
+  width: calc(30% - 49px);
+}
+article,
+article + div {
+  width: auto;
+}
+section img,
+article + div > a > img,
+main + div a img {
+  width: 100%;
+}
+article + div > a > img,
+main + div a img {
+  height: 100%;
+}
+div:first-child a,
+aside + nav a:hover,
+aside + nav a:active,
+nav + div div  a:hover,
+h2 + h3 + img  + map + a,
+article > div > h4 + a,
+article > div > h4 + a + a,
+article > div > h4 + a + a + a,
+article > div > h4 + a + a + a  + a,
+main div a:first-child:before,
+main div a:last-child:after,
+footer div img ~ a {
+  text-decoration: none;
+}
+article > div > h4 + a:hover,
+h2 + h3 + img  + map + a:hover,
+footer div img ~ a:hover {
+  text-decoration: underline;
+}
+aside + nav a,
+article + div aside a {
+  text-transform: uppercase;
+}
+nav + div div  a,
+div h5 + div p:nth-child(n+2):nth-child(-n+5) {
+  font-size: 70%;
+}
+nav + div p,
+article + div aside a {
+  font-size: 75%;
+}
+div:first-child a,
+nav + div aside a,
+h2 + h3 + img  + map + a,
+article > div > h4 + a + a,
+article > div > h4 + a + a + a,
+article > div > h4 + a + a + a  + a,
+article + div + div p,
+main section,
+main + div + div div p:first-child,
+div + nav ul li:after,
+input[type=submit],
+input[type=button],
+footer div:nth-of-type(1) p,
+footer div img ~ a {
+  font-size: 80%;
+}
+aside + nav a,
+div:first-child + aside a,
+article + div + div h4,
+nav h4,
+main h3,
+main + div h5,
+main + div + div h5,
+nav + div p {
+  font-size: 85%;
+}
+article > div > h4,
+main div a {
+  font-size: 90%;
+}
+div:first-child a,
+aside + nav a {
+  font-family: Calibri;
+}
+div:first-child + aside a,
+section h2,
+section h3,
+article > div > h4,
+div h5 + div {
+  font-family: Arial;
+}
+nav + div p,
+div + nav ul li a {
+  font-family: Arial Narrow;
+}
+nav + div aside a,
+article > div > h4 + a,
+article + div aside a {
+  font-family: Verdana;
+}
+div:first-child a,
+div:first-child a:hover,
+div:first-child a:active,
+aside + nav,
+nav + div aside a,
+nav + div aside a:hover,
+div:first-child + aside a,
+article,
+article + div,
+article + div aside,
+main + div + div,
+article + div + div,
+div + nav,
+main,
+main + div,
+footer{
+  background-repeat: no-repeat;
+}
+div:first-child a,
+div:first-child a:hover,
+div:first-child a:active {
+  background-size: calc(100% - .8em) 1px;
+  background-position: .8em calc(100% - 1px);
+}
+aside + nav,
+nav + div p {
+  border-radius: 4px;
+}
+aside + nav a:first-of-type,
+nav + div div  a:last-child,
+article + div aside a:last-child {
+  border-right: none;
+}
+aside + nav a,
+nav + div div  a {
+  border-right: 1px solid #dadada;
+}
+input[type=submit],
+input[type=button],
+input[type=submit]:hover,
+input[type=button]:hover {
+  border: none;
+}
+nav + div p,
+footer div:nth-of-type(1) p,
+footer div img ~ a {
+  margin: 0;
+}
+nav + div div  a,
+h2 + h3 + img  + map + a {
+  padding: 1px 7px;
+}
+
+/* Левая верхняя вспомогательная панель */
+div:first-child {
+  margin: 36px 0 0 57px;
+}
+div:first-child a {
+  font-style: italic;
+  padding-bottom: .1em;
+  /* нижня штрих-пунтирная полоска добавлена через градиент */
+  background-image: linear-gradient(to right, transparent, transparent 5%, #dadada 5%, #dadada 10%, transparent 10%, transparent 15%, #dadada 15%, #dadada 20%, transparent 20%, transparent 25%, #dadada 25%, #dadada 30%, transparent 30%, transparent 35%, #dadada 35%, #dadada 40%, transparent 40%, transparent 45%, #dadada 45%, #dadada 50%, transparent 50%, transparent 55%, #dadada 55%, #dadada 60%, transparent 60%, transparent 65%, #dadada 65%, #dadada 70%, transparent 70%, transparent 75%, #dadada 75%, #dadada 80%, transparent 80%, transparent 85%, #dadada 85%, #dadada 90%, transparent 90%, transparent 95%, #dadada 95%, #dadada 100%);
+}
+div:first-child a img {
+  padding-right: .5em;
+}
+div:first-child a:hover {
+  background-image: linear-gradient(to right, transparent, transparent 5%, #dadada 5%, #dadada);
+}
+div:first-child a:active {
+  background-image: linear-gradient(to right, transparent, transparent 5%, #fff 5%, #fff);
+}
+div:first-child a:first-child {
+  margin-right: .8em;
+}
+
+/* Навагационная шапка с картинкой-логотипом и основным меню */
+aside + nav {
+  margin: 0 48px 0 49px;
+  padding: 18px 50px 17px 18px;
+  background-image: linear-gradient(to bottom, #6c6c6c, #171717 23%, #171717 100%),
+					linear-gradient(to bottom, #6c6c6c, #171717 23%, #171717 100%),
+					linear-gradient(to bottom, #f1f1f1, #e7e7e7 1%, #fff 2%, #f9f9f9 3%, #787878 19%, #d3d3d3 37%, #a7a7a7 46%, #d6d6d6 56%, #6a6a6a 74%, #f9f9f9 79%, #808080 82%, #808080 84%, #f9f9f9 91%, #666 100%),
+					linear-gradient(#141414, #141414),
+					linear-gradient(#323232, #323232),
+					linear-gradient(to right, #040303, #141616),
+					linear-gradient(to bottom, #484848, #343434),
+					linear-gradient(to bottom, #4a4a4a, #343434),
+					linear-gradient(#4c4c4c, #4c4c4c),
+					linear-gradient(to bottom, #232323, #010101),
+					linear-gradient(#000, #000);					
+  background-size: 1px 100%, 1px 100%, 22px 100%, calc(100% - 4px) 1px, calc(100% - 4px) 1px, calc(100% - 2px) 1px, 1px calc(100% - 5px), 1px calc(100% - 5px), calc(100% - 4px) 1px, calc(100% - 4px) calc(100% - 5px), 100% 100%;
+  background-position: calc(100% - 10px) 0, calc(100% - 29px) 0, calc(100% - 9px) 0, 2px calc(100% - 2px), 2px calc(100% - 1px), 1px 100%, calc(100% - 1px) 3px, 1px 3px, 2px 1px, 2px 2px, 0 0;
+}
+aside + nav a {
+  padding: 0 8px 0 10px;
+  margin: 13px 0;
+}
+aside + nav a:hover,
+aside + nav a:active {
+  color: #d1ca28;
+  border-bottom: 1px dotted #d1ca28;
+}
+aside + nav a:active {
+  text-shadow: #ceca0e 0 .3px 0;
+}
+
+/* Панель с бегущей строкой и второстепенным меню */
+nav + div {
+  margin: 0 100px 0 49px;
+  padding-right: 74%;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 1.7% 100%;
+}
+/* Анотация к плавающей строке */
+nav + div p {
+  z-index: 1;
+  padding: 11px 5px 11px;
+  background: #191b1d;
+  color: #a9aaaa;
+}
+/* Плавающая строка */
+nav + div div {
+  top: 0;
+  bottom: 0;
+  left: -770px;
+  animation: plav-game 25s linear infinite forwards;
+}
+nav + div div:hover {
+  animation-play-state: paused;
+}
+@keyframes plav-game {100% {left: 670px;}}
+nav + div div  a {
+  margin-top: 12px;
+  color: #c5cf14;
+  font-family: Batang;
+  z-index: -1;
+}
+
+/* Меню регистрации */
+nav + div aside {
+  top: 0;
+  right: 0;
+}
+nav + div aside a {
+  background-image: linear-gradient(to bottom, #9f9603, #d0ca0c 29%, #96aa28 100%),
+					linear-gradient(#b2af24, #b2af24),
+					linear-gradient(to bottom, #a59d0c, #d5dc54),
+					linear-gradient(to bottom, #9f9603, #333317),
+					linear-gradient(#d5dc59, #d5dc59);
+  background-size: calc(100% - 3px) calc(100% - 2px), 100% 1px, calc(100% - 1px) calc(100% - 2px), 1px 100%, calc(100% - 1px) 1px;
+  background-position: 1px 1px, 0 0, 0 1px, 100% 0, 0 100%;  
+  padding: 10.6px 7px;
+  color: #1a1a1a;
+  text-shadow: #c5cd14 0 .5px;
+}
+nav + div aside a:first-child {
+  padding-left: 15px;
+  border-bottom-left-radius: 25% 100%;
+}
+nav + div aside a:last-child {
+  padding-right: 15px;
+  border-bottom-right-radius: 25% 100%;
+  background-size: calc(100% - 1px) calc(100% - 2px), 100% 1px, calc(100% - 1px) calc(100% - 2px), 1px 100%, calc(100% - 1px) 1px;
+  background-position: 1px 1px, 0 0, 0 1px, 100% 0, 0 100%;  
+}
+nav + div aside a:hover {
+  text-shadow: #000 0 .5px .5px;
+  background-image: linear-gradient(#9f9603, #9f9603),
+					linear-gradient(#b2af24, #b2af24),
+					linear-gradient(to bottom, #a59d0c, #d5dc54),
+					linear-gradient(to bottom, #9f9603, #333317),
+					linear-gradient(#d5dc59, #d5dc59);
+  background-size: calc(100% - 3px) calc(100% - 2px), 100% 1px, calc(100% - 1px) calc(100% - 2px), 1px 100%, calc(100% - 1px) 1px;
+  background-position: 1px 1px, 0 0, 0 1px, 100% 0, 0 100%;
+}
+nav + div aside a:last-child:hover {
+  background-size: calc(100% - 2px) calc(100% - 2px), 100% 1px, calc(100% - 1px) calc(100% - 2px), 1px 100%, calc(100% - 1px) 1px;
+  background-position: 1px 1px, 0 0, 0 1px, 100% 0, 0 100%;  
+}
+
+/* Верхнее правое вспомогательное меню */
+div:first-child + aside {
+  margin-right: 98px;
+  margin-top: 30px;
+}
+div:first-child + aside a {
+  padding: 10px;
+  text-shadow: #cdcdcd 0 1px;
+  background-image: linear-gradient(to bottom, #ffffff, #9c9c9c),
+					linear-gradient(to bottom, #fbfbfb, #bfbfbf),
+					linear-gradient(#9a9a9a, #9a9a9a);
+  background-size: calc(100% - 3px) calc(100% - 1px), calc(100% - 1px) 100%, 1px 100%;
+  background-position: 1px 0, 0 0, 100% 0;
+}
+div:first-child + aside a:first-child {
+  background-size: calc(100% - 2px) calc(100% - 1px), calc(100% - 1px) 100%, 1px 100%;
+  background-position: 0 0, 0 0, 100% 0;
+  border-top-left-radius: 25% 100%;
+  padding-left: 1em;
+}
+div:first-child + aside a:last-child {
+  background-size: 100% calc(100% - 1px), 100% 100%, 1px 100%;
+  background-position: 1px 0, 0 0, 100% 0;
+  border-top-right-radius: 25% 100%;
+  padding-right: 1em;
+}
+div:first-child + aside a:hover,
+div:first-child + aside a:active {
+  text-shadow: #b9b9b9 0 1px;
+  background-image: linear-gradient(to bottom, #e6e6e6, #8d8d8d),
+					linear-gradient(to bottom, #e4e4e4, #a9a9a9),
+					linear-gradient(#9a9a9a, #9a9a9a);
+}
+div:first-child + aside a:active {
+  padding-top: 11px;
+  padding-bottom: 9px;
+}
+
+/* Панель с краткими ссылками-статьями */
+article {
+  margin: 15px 48px 0 49px;
+  height: 335px;
+  background-image:	linear-gradient(#121212, #121212), linear-gradient(#121212, #121212), linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), linear-gradient(to bottom, #808080, #bbb 4.5%, #fff 9%, #ededed 13%, #b1b1b1 17.5%, #8f8f8f 22%, #cdcdcd 26%, #b8b8b8 30.5%, #828282 35%, #4b4b4b 39%, #3c3c3c 43.5%, #646464 48%, #a8a8a8 52%, #565656 56.5%, #898989 61%, #b0b0b0 65%, #cdcdcd 69.5%, #dedede 74%, #e5e5e5 78%, #ececec 82.5%, #f2f2f2 87%, #fbfbfb), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff);
+  background-size:	1px 14px, 1px 14px, 3px 23px, 3px 23px, 100% 23px, 10px calc(100% - 32px), 10px calc(100% - 32px), 10px calc(100% - 32px), 100% 10px;
+  background-position: calc(100% - 1px) 0, 1px 0, 100% 0, 0 0, 0 0, 0 23px, calc(50% - 5px) 23px, 100% 23px, 0 100%;
+}
+article section {
+  width: calc(50% - 20px);
+  height: calc(100% - 33px);
+  margin: 23px 10px 10px 10px;
+}
+section h2,
+section h3 {
+  margin: 15px 0 12px;
+  font-size: 100%;
+}
+section h2 {
+  margin-left: 13px;
+}
+section h2:after {
+  content: " → ";
+}
+section h2 a,
+section h2:after {
+  color: #f0efef;
+}
+h2 + h3 + img  + map + a {
+  text-align: justify;
+}
+section img {
+  height: 65%;
+}
+
+/* Правая мини-статья-ссылка */
+article > div {
+  background-image: linear-gradient(to bottom, #272727, #181818);
+  border: 1px solid #000;
+  margin: 0 10px 0 0;
+  width: calc(50% - 18px);	/* Минус исп. % и px при уменьшении маштаба, правые мини-статьи ссылки вылазят за пределы общего блока */
+  height: calc((100% - 39px)/3);
+}
+article > div:first-of-type {
+  margin-top: 23px;
+}
+article > div img {
+  margin: 10px;
+  width: calc(34% - 20px);
+  height: calc(100% - 20px);
+}
+article > div > h4 {
+  margin: 8px 0 0;
+}
+article > div > h4 a:hover {
+  font-weight: bold;
+}
+article > div > h4 + a {
+  margin-top: 26px;
+  height: 42%;
+  font-size: 54%;
+}
+article > div > h4 + a + a,
+article > div > h4 + a + a + a,
+article > div > h4 + a + a + a  + a {
+  border: 1px solid #3d3d3d;
+  margin: 1px 5px auto;
+  padding: 1px 4px;
+}
+article > div > h4 + a + a {
+  margin-left: 0;
+  color: #555;  
+}
+article > div > h4 + a + a + a {
+  color: #b6b6b6;
+}
+article > div > h4 + a + a,
+article > div > h4 + a + a + a{
+  background-color: #0b0b0b;
+}
+article > div > h4 + a + a + a  + a {
+  background-image: linear-gradient(to bottom, #fdec01, #a4ba29);
+  color: #0b0b0b;
+}
+article > div > h4 + a + a:hover {
+  box-shadow: inset 1px 1px #b6b6b6, inset -1px -1px #b6b6b6;
+}
+article > div > h4 + a + a + a  + a:hover {
+  background-image: linear-gradient(to bottom, #ffff04, #ffff8a);
+  color: #272727;
+}
+
+/* Блок с рекламой-ссылкой-картинкой и вспомогательным меню-буквами */
+article + div {
+  background-image: linear-gradient(#121212, #121212), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#121212, #121212), linear-gradient(#121212, #121212), linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), linear-gradient(to bottom, #808080, #bbb, #fff, #ededed, #b1b1b1, #8f8f8f, #cdcdcd, #b8b8b8, #828282, #4b4b4b, #3c3c3c, #646464, #a8a8a8, #565656, #898989, #b0b0b0);
+  background-size: 100% 1px, 2px calc(100% - 18px), 2px calc(100% - 18px), 100% 2px, 1px 16px, 1px 16px, 3px 16px, 3px 16px, 100% 16px;
+  background-position: 0 14px, 0 16px, 100% 16px, 0 100%, calc(100% - 1px) 0, 1px 0, 100% 0, 0 0, 0 0;
+  height: 78px;
+  margin: 19px 49px 20px 48px;
+}
+
+/* Ссылка-реклама */
+article + div > a {
+  margin: 16px 0 2px 2px;
+  width: calc(50% - 2px);
+  height: 60px;		/* Высота и правило переполнения добавлены, чтобы область ссылки не вылазила за границы своего блока, а обрезалась и не наежала на фон */
+}
+
+/* Блок со ссылками-буквами */
+article + div aside {
+  background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), linear-gradient(to right, #696969, #6a6a6a), linear-gradient(to right, #696969, #6a6a6a), linear-gradient(to right, #696969, #696969), linear-gradient(to bottom, #2b2b1a, #11110f), linear-gradient(to right, #2b2a27, #242424), linear-gradient(to right, #6a6a6a, #6a6a6a), linear-gradient(to bottom, #070707, #020203), linear-gradient(to right, #262727, #727271, #29292a);					
+  background-size: calc(100% - 4px) calc(100% - 4px), calc(100% - 2px) 1px, calc(100% - 2px) 1px, 1px calc(100% - 4px), 1px 100%, calc(100% - 1px) 1px, 1px calc(100% - 4px), 1px calc(100% - 2px), calc(100% - 1px) 1px;
+  background-position: 2px 2px, 1px 1px, 1px calc(100% - 1px), 1px 2px, 0 0, 1px 0, calc(100% - 1px) 2px, 100% 1px, 1px 100%;
+  width: calc(50% - 26px);
+  height: 56px;
+  margin: 16px 2px 2px 0;
+  padding: 2px 12px;
+}
+
+/* Ссылки-буквы */
+article + div aside a {
+  border-right: 1px solid #bcbbba;
+  padding-right: 4px;
+  color: #c1ca12;
+}
+
+/* Группирование: абзаца приветствия, ссылок навиг. панели справа, секции основной части документа, абзаца-вопроса в блоке-опроснике */
+article + div + div p,
+main section,
+main + div + div div p:first-child {
+  font-family: Bookman Old Style;
+}
+
+/* Блок приветствия */
+article + div + div {
+  margin: 0 12px 0 48px;
+  
+}
+
+/* Отступы, фон и поля содержимого вспомогательных блоков */
+article + div + div p,
+nav ul,
+main + div a,
+main section,
+main + div + div div {
+  background-color: #1f1f1f;
+  padding: 17px;
+  margin: 0 10px 9px;
+}
+
+/* Одинаковые свойства для заголовков вспомогательных блоков */
+article + div + div h4,
+nav h4,
+main h3,
+main + div h5,
+main + div + div h5 {
+  background-image: linear-gradient(to bottom, #191919, #010101);
+  height: 31px;
+  line-height: 31px;
+}
+
+/* Изменение ширины заголовков вспомогательных блоков будет происходить за счет полей */
+article + div + div h4 {
+  margin: 13px 205px 12px;  
+}
+nav h4 {
+  margin: 13px 56px 12px;  
+}
+main h3 {
+  margin: 13px 265px 12px;
+}
+main + div h5 {
+  margin: 13px 93px 12px;
+}
+main + div + div h5 {
+  margin: 13px 72px 12px;
+}
+
+/* Навигационная панель справа */
+div + nav {
+  margin-right: 49px;
+}
+div + nav ul {
+  padding-left: 30px;
+  list-style-image: url(images/punkt-spiska.png);
+}
+div + nav ul li a {
+  font-size: 95%;
+}
+
+/* Дополнительные элементы для ссылок пунктов списка навиг. панели справа */
+div + nav ul li:nth-of-type(1):after {
+  content: " [1245]";
+}
+div + nav ul li:nth-of-type(2):after {
+  content: " [1124]";
+}
+div + nav ul li:nth-of-type(3):after {
+  content: " [987]";
+}
+div + nav ul li:nth-of-type(4):after {
+  content: " [547]";
+}
+div + nav ul li:nth-of-type(5):after {
+  content: " [651]";
+}
+div + nav ul li:nth-of-type(6):after {
+  content: " [1684]";
+}
+div + nav ul li:nth-of-type(7):after {
+  content: " [1567]";
+}
+div + nav ul li:nth-of-type(8):after {
+  content: " [115]";
+}
+div + nav ul li:nth-of-type(9):after {
+  content: " [75]";
+}
+div + nav ul li:nth-of-type(10):after {
+  content: " [154]";
+}
+div + nav ul li:nth-of-type(11):after {
+  content: " [5647]";
+}
+div + nav ul li:nth-of-type(12):after {
+  content: " [1645]";
+}
+div + nav ul li:nth-of-type(13):after {
+  content: " [84]";
+}
+div + nav ul li:nth-of-type(14):after {
+  content: " [878]";
+}
+div + nav ul li:nth-of-type(15):after {
+  content: " [537]";
+}
+div + nav ul li:nth-of-type(16):after {
+  content: " [651]";
+}
+div + nav ul li:nth-of-type(17):after {
+  content: " [1684]";
+}
+
+/* Блок основного содержимого */
+main {
+  margin: 15px 12px 17px 48px;
+}
+
+/* Раздел основновной части веб-страницы */
+main section {
+  min-height: 900px;
+}
+
+/* Нижняя, абсолют. позиц., навигационная панель основной части веб-страницы для перелистывания section */
+main div {
+  background-image: linear-gradient(to bottom, #272727, #181818);
+  left: 10px;
+  bottom: 9px;
+  width: calc(100% - 20px);
+}
+
+/* Св. для ссылок нижнего вспомогательного навигац. блок main */
+main div a {
+  margin: 12px 2px 9px;
+}
+main div a:first-child {
+  margin-right: 33px;  
+}
+main div a:last-child {
+  margin-left: 33px; 
+}
+main div a:first-child:before {
+  content: "←";
+  margin-right: 9px;
+}
+main div a:last-child:after {
+  content: "→";
+  margin-left: 9px;
+}
+main div a:first-child:before,
+main div a:last-child:after {
+  color: #808080;
+}
+
+/* Ссылка, внутри которой картинка - блок рекламы */
+main + div a {
+  padding: 0;
+  width: calc(100% - 20px);
+  height: calc(100% - 56px);
+}
+
+/* Позиционирование задание ширины и отступов для правого блока рекламы, правого блока с опросом */
+main + div,
+main + div + div {
+  margin: 12px 49px 0 0;
+}
+
+/* Задание фона для вспомогательных блоков */
+article + div + div,
+div + nav,
+main,
+main + div,
+main + div + div {
+  background-image:	linear-gradient(#121212, #121212), linear-gradient(#121212, #121212), linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), linear-gradient(to bottom, #808080, #bbb, #fff, #ededed, #b1b1b1, #8f8f8f, #cdcdcd, #b8b8b8, #828282, #4b4b4b, #3c3c3c, #646464, #a8a8a8), linear-gradient(to right, #4e4e4e, #555), linear-gradient(to right, #494949, #505050), linear-gradient(to bottom, #1a1a1a, #010101), linear-gradient(#3d3d3d, #3d3d3d), linear-gradient(to bottom, #acacac, #eee 55%, #f7f7f7 64%, #fff), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff);
+  background-size: 1px 13px, 1px 13px, 3px 13px, 3px 13px, 100% 13px, calc(100% - 14px) 1px, calc(100% - 14px) 1px, calc(100% - 2px) 32px, 100% 33px, 100% 11px, 10px calc(100% - 63px), 10px calc(100% - 63px), 100% 9px;
+  background-position: calc(100% - 1px) 0, 1px 0, 100% 0, 0 0, 0 0, 7px 28px, 7px 33px, 1px 12px, 0 12px, 0 45px, 0 55px, 100% 55px, 0 100%;
+}
+
+/* Варианты выбора опросников */
+div h5 + div p:nth-child(n+2):nth-child(-n+5) input {
+  vertical-align: bottom;
+  margin-right: 8px;
+}
+
+/* Параметры для 2-х кнопок внутри опросника */
+input[type=submit],
+input[type=button] {
+  padding: 5px 10px;
+  background-image: linear-gradient(to bottom, #fdec01, #a4ba29);
+  box-shadow: inset 1px 0 0 0 #3c3c3c, inset -1px 0 0 0 #3c3c3c, inset 0 1px 0 0 #3d3d3d, inset 0 -1px 0 0 #3d3d3d;
+}
+
+/* Общий отступ для 2-кнопок и вопроса в опроснике */
+input[type=submit],
+input[type=button],
+div h5 + div p:first-child {
+  margin-left: 2px;
+}
+
+/* Свойства при наведении на 2 кнопки */
+input[type=submit]:hover,
+input[type=button]:hover {
+  background-image: linear-gradient(to bottom, #a4ba29, #fdec01);
+  box-shadow: inset 2px 0 0 0 #3c3c3c, inset -2px 0 0 0 #3c3c3c, inset 0 2px 0 0 #3d3d3d, inset 0 -2px 0 0 #3d3d3d;
+  cursor: pointer;
+}
+
+/* Подвал сайта */
+footer {
+  background-image: linear-gradient(#000, #000), linear-gradient(#121212, #121212), linear-gradient(#121212, #121212), linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), linear-gradient(to bottom, #808080, #bbb, #fff, #ededed, #b1b1b1, #8f8f8f, #cdcdcd, #b8b8b8, #828282, #4b4b4b, #3c3c3c, #646464, #a8a8a8), linear-gradient(to bottom, #dadada, #e7e7e7), linear-gradient(#232323, #232323), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#000, #000);
+  background-size: 100% 1px, 1px 13px, 1px 13px, 3px 13px, 3px 13px, 100% 13px, 100% 2px, calc(100% - 4px) 1px, 2px calc(100% - 16px), 2px calc(100% - 16px), 100% 2px, 100% 100%;
+  background-position: 0 12px, calc(100% - 1px) 0, 1px 0, 100% 0, 0 0, 0 0, 0 13px, 2px 15px, 100% 15px, 0 15px, 0 100%, 0 0;
+  height: 80px;
+  margin: 12px 49px 0 48px;
+}
+footer div:nth-of-type(1) {
+  margin: 30px auto 18px 17px;
+  width: 30%;
+  border-right: 2px dotted #454545;
+}
+footer div:nth-of-type(2) {
+  width: 21%;
+  margin: 30px 59px 18px auto;
+  padding-left: 3%;
+  border-left: 2px dotted #454545;
+}
+footer div img {
+  margin-right: 16px;
+}
+footer div:nth-of-type(2) img {
+  padding-top: 5px;
+}
+footer div:nth-of-type(1) p + p,
+footer a:nth-of-type(2) {
+  color: #626262;
+}
+
+/* Изменение в зависимости от ширины экрана или маштабирования - Адаптивный дизайн */
+@media all and (max-width: 949px) {
+  body {
+    width: 100%;
+  }
+  div:first-child {
+    margin-left: 8px;
+  }
+  div:first-child + aside {
+    margin-right: 50px;
+  }
+  aside + nav {
+    margin: 0;
+  }
+  nav + div {
+    margin: 0 52px 0 0;
+  }
+  nav + div p {
+    font-size: 85%;
+  }
+  article {
+    margin: 15px 0 0;
+  }
+  article + div {
+    margin: 19px 0 20px;
+  }
+  article + div + div {
+    margin: 0 12px 0 0;
+    width: calc(100% - 30% - 12px);
+  }
+  div + nav {    
+    margin: 0;
+	width: 30%;
+  }
+  article + div + div h4 {
+    margin: 13px 190px 12px;  
+  }
+  main {    
+    margin: 15px 12px 17px 0;
+	width: calc(100% - 30% - 12px);
+  }
+  main h3 {
+    margin: 13px 250px 12px;
+  }
+  main + div,
+  main + div + div {
+    width: 30%;
+    margin: 12px 0 0;
+  }
+  footer {
+    margin: 0;
+  }
+}
+@media all and (max-width: 872px) {
+  div:first-child,
+  div:first-child + aside  {
+    margin-top: 5px;
+  }
+  main div a:first-child {
+    margin-right: 25px;  
+  }
+  main div a:last-child {
+    margin-left: 25px; 
+  }
+  main div a:nth-child(n+12):nth-child(-n+16) {
+    display: none;
+  }
+}
+@media all and (max-width: 847px) {
+  article + div + div h4 {
+    margin: 13px 135px 12px;  
+  }
+  nav h4 {
+    margin: 13px 35px 12px;  
+  }
+}
+@media all and (max-width: 819px) {
+  footer div:nth-of-type(1) {
+    width: 40%;
+  }
+  footer div:nth-of-type(2) {
+    width: 30%;
+	margin-right: 17px;
+  }
+  main + div + div h5 {
+    margin: 13px 52px 12px;
+  }
+}
+@media all and (max-width: 789px) {
+  aside + nav {
+    padding: 5px 7% 5px 5px;
+    height: 85px;
+  }
+  aside + nav img {
+    position: relative;
+    top: 22px;
+  }
+}
+@media all and (max-width: 770px) {
+  article > div > h4 + a + a,
+  article > div > h4 + a + a + a,
+  article > div > h4 + a + a + a  + a {
+    margin: 0;
+  }
+  article + div {
+    display: none;
+  }
+  article {
+    margin-bottom: 19px;
+  }
+}
+@media all and (max-width: 693px) {
+  article > div {
+    display: none;
+  }
+  article,
+  div + nav ,
+  main,
+  footer  {
+    width: 85%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+  }
+  article section {
+    width: calc(100% - 20px);
+	background: black;
+  }
+  article + div + div,
+  main + div,
+  main + div + div  {
+    display: none;
+  }
+  div + nav ul li {
+    display: inline-block;
+	margin-left: 5px;
+  }
+  nav h4 {
+    margin: 13px 170px 12px;  
+  }
+  nav ul {
+    padding-left: 35px;
+  }
+  footer div:nth-of-type(1) {
+    width: 55%;
+	margin-left: 10px;
+  }
+  footer div:nth-of-type(2) {
+    width: 36%;
+	margin-right: 10px;
+  }	
+}
+@media all and (max-width: 630px) {
+  nav + div {
+    background-color: transparent;
+  }
+  nav + div p,
+  nav + div div {
+    visibility: hidden;
+  }
+}
+@media all and (max-width: 600px) {
+  article,
+  div + nav,
+  main,
+  footer   {
+    width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media all and (max-width: 596px) {
+  article {
+    margin-top: -15px;
+  }
+}
+@media all and (max-width: 567px) {
+  div:first-child + aside {
+    margin-right: 15px;
+  }
+  article,
+  div + nav,
+  main,
+  footer  {
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+}
+@media all and (max-width: 532px) {
+  body {
+    width: 532px;
+  }
+  div:first-child + aside {
+    margin-right: 10px;
+  }
+  article,
+  div + nav,
+  main,
+  footer  {
+    width: 96%;
+	margin-right: 2%;
+    margin-left: 2%;
+  }
+  div:first-child {
+    margin-left: 120px;
+  }
+  aside + nav a {
+    padding: 0 5px 0;
+  }
+}
